@@ -61,7 +61,7 @@
 
 1. K 線圖顯示模組
 
-採用 klinecharts 套件實作
+採用 HQChart 套件實作
 
 支援滑動、拖拉與縮放操作
 
@@ -109,7 +109,7 @@ Large：四區塊排版，支援高資訊密度顯示
 
 UI 套件：Vant 4（手機端）、Element Plus（桌面端）
 
-圖表工具：klinecharts
+圖表工具：HQChart
 
 狀態管理：Pinia
 
@@ -131,7 +131,7 @@ UI 套件：Vant 4（Mobile）、Element Plus（Desktop）
 
 裝置偵測：自訂 useDeviceLayout hook（AWD）
 
-圖表套件：klinecharts（可替換為 TradingView lightweight）
+圖表套件：HQChart（可替換為 TradingView lightweight）
 
 📁 專案目錄結構
 
@@ -140,7 +140,7 @@ futures-trade-mvp-awd/
 ├── src/
 │   ├── assets/
 │   ├── components/
-│   │   └── KLineChart.vue
+│   │   └── KLineHQChart.vue
 │   ├── layouts/
 │   │   ├── MobileLayout.vue
 │   │   ├── TabletLayout.vue
